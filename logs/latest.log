@@ -1,0 +1,714 @@
+[00:28:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 48989427ms or 979788 ticks behind
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: Reference Handler
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 2 | Suspended: false | Native: false | State: RUNNABLE
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.Reference.processPendingReferences(Reference.java:253)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.Reference$ReferenceHandler.run(Reference.java:215)
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: Finalizer
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 3 | Suspended: false | Native: false | State: WAITING
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Object.wait(Native Method)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:172)
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: Signal Dispatcher
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 4 | Suspended: false | Native: false | State: RUNNABLE
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: Attach Listener
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 5 | Suspended: false | Native: false | State: RUNNABLE
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: Notification Thread
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 13 | Suspended: false | Native: false | State: RUNNABLE
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: Common-Cleaner
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 14 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Object.wait(Native Method)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.ref.CleanerImpl.run(CleanerImpl.java:140)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.InnocuousThread.run(InnocuousThread.java:162)
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: DestroyJavaVM
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 16 | Suspended: false | Native: false | State: RUNNABLE
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: WindowsStreamPump
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 20 | Suspended: false | Native: false | State: RUNNABLE
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		org.fusesource.jansi.internal.Kernel32.WaitForSingleObject(Native Method)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.jansi.win.JansiWinSysTerminal.processConsoleInput(JansiWinSysTerminal.java:138)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.AbstractWindowsTerminal.pump(AbstractWindowsTerminal.java:460)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		org.jline.terminal.impl.AbstractWindowsTerminal$$Lambda$122/0x0000000800d18480.run(Unknown Source)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: Log4j2-AsyncAppenderEventDispatcher-1-Async
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 22 | Suspended: false | Native: false | State: WAITING
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ArrayBlockingQueue.take(ArrayBlockingQueue.java:420)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.dispatchAll(AsyncAppenderEventDispatcher.java:82)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		org.apache.logging.log4j.core.appender.AsyncAppenderEventDispatcher.run(AsyncAppenderEventDispatcher.java:74)
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: JNA Cleaner
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 23 | Suspended: false | Native: false | State: WAITING
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Object.wait(Native Method)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[00:28:20] [Paper Watchdog Thread/ERROR]: 		com.sun.jna.internal.Cleaner$1.run(Cleaner.java:58)
+[00:28:20] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:20] [Paper Watchdog Thread/ERROR]: Current Thread: Timer hack thread
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	PID: 24 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:20] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.Util$7.run(Util.java:713)
+[00:28:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:24] [Paper Watchdog Thread/ERROR]: Current Thread: Yggdrasil Key Fetcher
+[00:28:24] [Paper Watchdog Thread/ERROR]: 	PID: 25 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:24] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:24] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-1
+[00:28:24] [Paper Watchdog Thread/ERROR]: 	PID: 28 | Suspended: false | Native: false | State: WAITING
+[00:28:24] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:24] [Paper Watchdog Thread/ERROR]: Current Thread: Worker-Main-2
+[00:28:24] [Paper Watchdog Thread/ERROR]: 	PID: 29 | Suspended: false | Native: false | State: WAITING
+[00:28:24] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:24] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:24] [Paper Watchdog Thread/ERROR]: Current Thread: Server thread
+[00:28:24] [Paper Watchdog Thread/ERROR]: 	PID: 30 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:24] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.waitForTasks(BlockableEventLoop.java:148)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:137)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1272)
+[00:28:24] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1160)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:315)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.MinecraftServer$$Lambda$5209/0x00000008016a5968.run(Unknown Source)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:25] [Paper Watchdog Thread/ERROR]: Current Thread: RegionFile I/O Thread #0
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	PID: 37 | Suspended: false | Native: false | State: WAITING
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.executor.standard.PrioritisedQueueExecutorThread.run(PrioritisedQueueExecutorThread.java:97)
+[00:28:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:25] [Paper Watchdog Thread/ERROR]: Current Thread: Tuinity Chunk System Worker #0
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	PID: 38 | Suspended: false | Native: false | State: WAITING
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.executor.standard.PrioritisedQueueExecutorThread.run(PrioritisedQueueExecutorThread.java:97)
+[00:28:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:25] [Paper Watchdog Thread/ERROR]: Current Thread: Tuinity Chunk System Worker #1
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	PID: 39 | Suspended: false | Native: false | State: WAITING
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:211)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		ca.spottedleaf.concurrentutil.executor.standard.PrioritisedQueueExecutorThread.run(PrioritisedQueueExecutorThread.java:97)
+[00:28:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:25] [Paper Watchdog Thread/ERROR]: Current Thread: Paper Watchdog Thread
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	PID: 40 | Suspended: false | Native: false | State: RUNNABLE
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.management@17.0.2/sun.management.ThreadImpl.dumpThreads0(Native Method)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.management@17.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:521)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.management@17.0.2/sun.management.ThreadImpl.dumpAllThreads(ThreadImpl.java:509)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		org.spigotmc.WatchdogThread.run(WatchdogThread.java:203)
+[00:28:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:25] [Paper Watchdog Thread/ERROR]: Current Thread: Server console handler
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	PID: 32 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1757)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		org.jline.utils.NonBlockingPumpReader.read(NonBlockingPumpReader.java:78)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		org.jline.utils.NonBlockingReader.read(NonBlockingReader.java:57)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		org.jline.keymap.BindingReader.readCharacter(BindingReader.java:160)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		org.jline.keymap.BindingReader.readBinding(BindingReader.java:110)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		org.jline.keymap.BindingReader.readBinding(BindingReader.java:61)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.doReadBinding(LineReaderImpl.java:923)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.readBinding(LineReaderImpl.java:956)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:651)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		org.jline.reader.impl.LineReaderImpl.readLine(LineReaderImpl.java:468)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:158)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:141)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:102)
+[00:28:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:25] [Paper Watchdog Thread/ERROR]: Current Thread: pool-8-thread-1
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	PID: 41 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:25] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:25] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:25] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #0
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	PID: 42 | Suspended: false | Native: true | State: RUNNABLE
+[00:28:25] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPoll.wait(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: bStats-Metrics
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 43 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: pool-11-thread-1
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 44 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Thread-5
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 47 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.sleep(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Geyser-Spigot.jar//org.geysermc.geyser.scoreboard.ScoreboardUpdater.sleepFor(ScoreboardUpdater.java:166)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Geyser-Spigot.jar//org.geysermc.geyser.scoreboard.ScoreboardUpdater.run(ScoreboardUpdater.java:143)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: pool-18-thread-1
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 48 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: nioEventLoopGroup-3-1
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 50 | Suspended: false | Native: true | State: RUNNABLE
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPoll.wait(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Geyser Scheduled Thread-2-1
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 52 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Geyser Spigot connection thread-5-1
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 54 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: defaultEventLoopGroup-6-1
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 57 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Geyser Spigot connection thread-5-2
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 59 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Craft Async Scheduler Management Thread
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 60 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Java2D Disposer
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 67 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Object.wait(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:155)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:176)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.desktop@17.0.2/sun.java2d.Disposer.run(Disposer.java:145)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: ExpiringMap-Expirer
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 68 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1170)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: nioEventLoopGroup-3-2
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 69 | Suspended: false | Native: true | State: RUNNABLE
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPoll.wait(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Geyser player thread-4-1
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 71 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: defaultEventLoopGroup-6-2
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 72 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Geyser Spigot connection thread-5-3
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 73 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: nioEventLoopGroup-3-3
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 87 | Suspended: false | Native: true | State: RUNNABLE
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPoll.wait(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: nioEventLoopGroup-3-4
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 88 | Suspended: false | Native: true | State: RUNNABLE
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPoll.wait(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Geyser player thread-4-2
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 89 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: defaultEventLoopGroup-6-3
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 90 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Geyser Spigot connection thread-5-4
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 91 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: pool-23-thread-1
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 98 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #1
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 200 | Suspended: false | Native: true | State: RUNNABLE
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPoll.wait(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #2
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 312 | Suspended: false | Native: true | State: RUNNABLE
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPoll.wait(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Geyser player thread-4-3
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 326 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: defaultEventLoopGroup-6-4
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 327 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor.takeTask(SingleThreadEventExecutor.java:244)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:52)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: Netty Server IO #3
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 411 | Suspended: false | Native: true | State: RUNNABLE
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Thread is waiting on monitor(s):
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Locked on:java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPoll.wait(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.WEPollSelectorImpl.doSelect(WEPollSelectorImpl.java:111)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:129)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SelectorImpl.select(SelectorImpl.java:146)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.SelectedSelectionKeySetSelector.select(SelectedSelectionKeySetSelector.java:68)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:879)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:526)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: WebSocketConnectReadThread-751
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 751 | Suspended: false | Native: false | State: RUNNABLE
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SocketDispatcher.read0(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:46)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.NioSocketImpl.tryRead(NioSocketImpl.java:261)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:312)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:350)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:803)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.net.Socket$SocketInputStream.read(Socket.java:966)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.security.ssl.SSLSocketInputRecord.readHeader(SSLSocketInputRecord.java:472)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(SSLSocketInputRecord.java:70)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1455)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1059)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.io.InputStream.read(InputStream.java:218)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Geyser-Spigot.jar//org.java_websocket.client.WebSocketClient.run(WebSocketClient.java:505)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: WebSocketWriteThread-758
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 758 | Suspended: false | Native: false | State: WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:341)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(AbstractQueuedSynchronizer.java:506)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.unmanagedBlock(ForkJoinPool.java:3463)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ForkJoinPool.managedBlock(ForkJoinPool.java:3434)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1623)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:435)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Geyser-Spigot.jar//org.java_websocket.client.WebSocketClient$WebsocketWriteThread.runWriteData(WebSocketClient.java:767)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		Geyser-Spigot.jar//org.java_websocket.client.WebSocketClient$WebsocketWriteThread.run(WebSocketClient.java:751)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:27] [Paper Watchdog Thread/ERROR]: Current Thread: connectionLostChecker-1
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	PID: 760 | Suspended: false | Native: false | State: TIMED_WAITING
+[00:28:27] [Paper Watchdog Thread/ERROR]: 	Stack:
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[00:28:27] [Paper Watchdog Thread/ERROR]: 		java.base@17.0.2/java.lang.Thread.run(Thread.java:833)
+[00:28:27] [Paper Watchdog Thread/ERROR]: ------------------------------
+[00:28:30] [Paper Watchdog Thread/INFO]: Stopping server
+[00:28:32] [Paper Watchdog Thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.0-SNAPSHOT
+[00:28:34] [Paper Watchdog Thread/INFO]: [Geyser-Spigot] Desligando o Geyser.
+[00:28:46] [WebSocketConnectReadThread-762/INFO]: [Geyser-Spigot] The skin uploader has been closed
+[00:28:52] [Paper Watchdog Thread/INFO]: [Geyser-Spigot] Geyser encerrado com sucesso.
+[00:29:52] [Paper Watchdog Thread/INFO]: [floodgate] Disabling floodgate v2.2.2-SNAPSHOT (b85-71acc6c)
+[00:30:06] [Paper Watchdog Thread/INFO]: Saving players
+[00:30:07] [Paper Watchdog Thread/INFO]: Saving worlds
+[00:30:07] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:30:07] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[00:30:08] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[00:30:08] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[00:30:21] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Saved 700 chunks (51,70%) in world 'world'
+[00:30:30] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Saved 1264 block chunks, 116 entity chunks, 0 poi chunks in world 'world' in 18,41s
+[00:30:36] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:30:36] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[00:30:36] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[00:30:36] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[00:30:36] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[00:30:36] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 15 entity chunks, 0 poi chunks in world 'world_nether' in 0,01s
+[00:30:37] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:30:37] [Paper Watchdog Thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[00:30:37] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[00:30:37] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[00:30:37] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[00:30:37] [Paper Watchdog Thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 10 entity chunks, 0 poi chunks in world 'world_the_end' in 0,01s
+[00:30:38] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:30:38] [Paper Watchdog Thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:30:39] [Paper Watchdog Thread/INFO]: Flushing Chunk IO
+[00:30:39] [Paper Watchdog Thread/INFO]: Closing Thread Pool
+[00:30:39] [Paper Watchdog Thread/INFO]: Closing Server
