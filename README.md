@@ -1,4 +1,4 @@
-# Minecraft Server
+# GeyserMC Minecraft Server
 
 This is a Minecraft server that uses PaperMC, GeyserMC and Floodgate to provide a fast, secure and cross-platform gaming experience.
 
